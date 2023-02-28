@@ -30,7 +30,7 @@ To perform the captures, all devices were placed on a tripod at a height of 1.5 
   <b> Experimental setup </b>
 </p>
 <p align="center">
-<img src="setup.png" width="75%" height="75%">
+<img src="setup.png" width="50%" height="50%">
 </p>
 
 
