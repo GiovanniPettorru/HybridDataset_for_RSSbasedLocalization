@@ -5,5 +5,5 @@ For conducting the tests, a scenario was created in the outdoor parking lots of 
 <p align="center">
 Experimental scenario
 <img src="Test fisici.png" width="50%" height="50%">
-</p>
+ </p>
 
