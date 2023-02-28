@@ -7,7 +7,7 @@ Six anchor nodes distributed along a rectangle of size 21.1 x 30 meters, as show
   <b> Experimental scenario </b>
 </p>
 <p align="center">
-<img src="Test fisici.png" width="75%" height="75%">
+<img src="img/Test fisici.png" width="75%" height="75%">
 </p>
 
 The purpose of this dataset is to provide real RSS measurements, thus affected by propagation disturbances such as typical of these scenarios, by means of which to be able to test RSS-based localization algorithms. 
@@ -20,7 +20,7 @@ Two types of devices were used to conduct the acquisition campaign: Raspberry Pi
   <b> Anchor and Target devices </b>
 </p>
 <p align="center">
-<img src="devices.png" width="75%" height="75%">
+<img src="img/devices.png" width="75%" height="75%">
 </p>
 
 The Target node was equipped with an external WiFi interface that would allow it to sniff the network and consecutively capture probe requests sent by the anchor nodes. From the capture of these frames, various information can be extracted, including the RSS on which we focus in this work. 
@@ -30,7 +30,7 @@ To perform the captures, all devices were placed on a tripod at a height of 1.5 
   <b> Experimental setup </b>
 </p>
 <p align="center">
-<img src="setup.png" width="50%" height="50%">
+<img src="img/setup.png" width="50%" height="50%">
 </p>
 
 On the software side, I used, as far as the anchor node is concerned, a python language script and the PyShark library. Using one of the functions of this library, the script allowed me to access the external interface in monitor mode thus going on to capture all Probe Requests sent by all devices within a certain range of the anchor node's coverage. Next, a part of the script took care of filtering these packets going to retain only those sent by the anchor nodes, using the MAC ADDRESS of the devices as the discriminating information. 
