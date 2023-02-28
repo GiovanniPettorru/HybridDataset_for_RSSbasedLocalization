@@ -1,5 +1,5 @@
 # RSS Dataset for Outdoor Localization Algorithms
-This dataset is a complete set of Received signal strength (RSS) reads collected by a Target Raspberry Pi 4 model B node using an external WiFi interface that is intended to capture probe requests sent by anchor nodes Raspberry Pi Zero W located in the scenario.
+This dataset is a complete set of Received signal strength (RSS) reads collected by a Target node Raspberry Pi 4 model B using an external WiFi interface that is intended to capture probe requests sent by anchor nodes Raspberry Pi Zero W located in the scenario.
 For conducting the tests, a scenario was created in the outdoor parking lots of the Faculty of Engineering, University of Cagliari. 
 Six anchor nodes distributed along a rectangle of size 21.1 x 30 meters, as shown in the figure, were used for the acquisitions. 
 
@@ -33,4 +33,6 @@ To perform the captures, all devices were placed on a tripod at a height of 1.5 
 <img src="setup.png" width="50%" height="50%">
 </p>
 
+On the software side, I used, as far as the anchor node is concerned, a python language script and the PyShark library. Using one of the functions of this library, the script allowed me to access the external interface in monitor mode thus going on to capture all Probe Requests sent by all devices within a certain range of the anchor node's coverage. Next, a part of the script took care of filtering these packets going to retain only those sent by the anchor nodes, using the MAC ADDRESS of the devices as the discriminating information. 
+On the other hand, as far as the anchor nodes are concerned, I used a script in Python that would allow a continuous scan of the WiFi networks present, thus indirectly going to force the forwarding of Probe Requests. 
 
