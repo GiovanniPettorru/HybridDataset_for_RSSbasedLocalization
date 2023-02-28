@@ -3,5 +3,5 @@ This dataset is a complete set of RSS readings collected by a Target node in the
 
 <p align="center">
 Experimental scenario
-<img src="">
+<img src="Test fisici.png">
  </p>
