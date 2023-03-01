@@ -7,7 +7,7 @@ Six anchor nodes distributed along a rectangle of size 21.1 x 30 meters, as show
   <b> Experimental scenario </b>
 </p>
 <p align="center">
-<img src="img/Test fisici.png" width="75%" height="75%">
+<img src="img/scenario.png" width="75%" height="75%">
 </p>
 
 The purpose of this dataset is to provide real RSS measurements, thus affected by propagation disturbances such as typical of these scenarios, by means of which to be able to test RSS-based localization algorithms. 
