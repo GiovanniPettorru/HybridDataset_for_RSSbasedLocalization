@@ -24,7 +24,7 @@ Two types of devices were used to conduct the acquisition campaign: Raspberry Pi
 </p>
 
 The Target node was equipped with an external WiFi interface that would allow it to sniff the network and consecutively capture probe requests sent by the anchor nodes. From the capture of these frames, various information can be extracted, including the RSS on which we focus in this work. 
-To perform the captures, all devices were placed on a tripod at a height of 1.5 meters above the ground as can be seen in the figure. This choice was made after conducting various tests at different heights that showed that better results could be obtained using this configuration.
+To perform the captures, all devices were placed on a tripod at a height of 1.5 meters above the ground as can be seen in the figure. This choice was made after conducting various tests at different heights that showed that better results could be obtained using this configuration. For each anchor in the scenario, target acquisition lasted 15 minutes. 
 
 <p align="center">
   <b> Experimental setup </b>
