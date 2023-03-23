@@ -1,8 +1,9 @@
 # RSS Dataset for Outdoor Localization Algorithms
-This dataset is a complete set of Received signal strength (RSS) reads collected by a Target node Raspberry Pi 4 model B using an external WiFi interface that is intended to capture probe requests sent by anchor nodes Raspberry Pi Zero W located in the scenario.
+This dataset is a complete set of Received signal strength (RSS) reads collected by a Target node Raspberry Pi 4 model B using an external WiFi interface that is intended to capture probe requests (WiFi) and advertisement packets (BLE) sent by anchor nodes Raspberry Pi Zero W located in the scenario.
 For conducting the tests, a scenario was created in the outdoor parking lots of the Faculty of Engineering, University of Cagliari. 
 Six anchor nodes distributed along a rectangle of size 21.1 x 30 meters, as shown in the figure, were used for the acquisitions. 
 
+# Quando carico altri scenari, qui si può dire che sono stati creati diversi scenari (A, B, C) indoor e outdoor e li si presenta in un altra sezione. 
 <p align="center">
   <b> Experimental scenario </b>
 </p>
