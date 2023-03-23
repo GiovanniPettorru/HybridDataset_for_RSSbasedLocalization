@@ -1,19 +1,25 @@
 # RSS Dataset for Outdoor Localization Algorithms
 This dataset is a complete set of Received signal strength (RSS) reads collected by a Target node Raspberry Pi 4 model B that is intended to capture probe requests (WiFi) and advertisement packets (BLE) sent by anchor nodes Raspberry Pi Zero W located in the scenario.
-For conducting the tests, a scenario was created in the outdoor parking lots of the Faculty of Engineering, University of Cagliari. 
-Six anchor nodes distributed along a rectangle of size 21.1 x 30 meters, as shown in the figure, were used for the acquisitions. 
-
-[comment]: <> (Quando aggiungo scenario A, B, C, qui devo dire che ho creato diversi scenari e ne parlo in una nuova sezione)
-
-<p align="center">
-  <b> Experimental scenario </b>
-</p>
-<p align="center">
-<img src="img/scenario.png" width="75%" height="75%">
-</p>
-
+For conducting the tests, different scenarios were created in the outdoor/indoor parking lots of the Faculty of Engineering, University of Cagliari. 
 The purpose of this dataset is to provide real RSS measurements, thus affected by propagation disturbances such as typical of these scenarios, by means of which to be able to test RSS-based localization algorithms. 
 Each CSV consists of 5 (BLT) or 6 (WiFi) columns, named Timestamp, Date ISO, Rx Power [dBm], Relative Coordinates [m], Target Coordinates [m], Distance Target - Anchor [m], respectively. The Timestamp and Date ISO data refer to the time instant at which the Target node acquires the probe request to which the Rx Power [dBm] data refers. The data Relative Coordinates [m] refers to the coordinates of the anchor node in the reference scenario while Distance Target - Anchor [m] refers to the distance between the anchor node and the target node. The data element Target Coordinates [m] refers to the relative coordinates of the target in the reference scenario. 
+
+
+# Scenarios
+
+<p align="center">
+  <b> Experimental scenario A </b>
+</p>
+<p align="center">
+<img src="img/scenario A.png" width="75%" height="75%">
+</p>
+
+<p align="center">
+  <b> Experimental scenario B </b>
+</p>
+<p align="center">
+<img src="img/scenario B.png" width="75%" height="75%">
+</p>
 
 ## Devices
 Two types of devices were used to conduct the acquisition campaign: Raspberry Pi 4 model B for the Target node, Raspberry Pi Zero W for the anchor nodes.
