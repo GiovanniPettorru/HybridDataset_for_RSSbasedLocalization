@@ -3,6 +3,7 @@ This dataset is a complete set of Received signal strength (RSS) reads collected
 For conducting the tests, a scenario was created in the outdoor parking lots of the Faculty of Engineering, University of Cagliari. 
 Six anchor nodes distributed along a rectangle of size 21.1 x 30 meters, as shown in the figure, were used for the acquisitions. 
 
+[comment]: <> (This is a comment, it will not be included)
 <p align="center">
   <b> Experimental scenario </b>
 </p>
