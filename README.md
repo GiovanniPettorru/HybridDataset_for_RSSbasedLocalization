@@ -11,14 +11,14 @@ Each CSV consists of 5 (BLT) or 6 (WiFi) columns, named Timestamp, Date ISO, Rx 
   <b> Experimental scenario A </b>
 </p>
 <p align="center">
-<img src="img/scenario A.png" width="75%" height="75%">
+<img src="img/Scenario A.png" width="75%" height="75%">
 </p>
 
 <p align="center">
   <b> Experimental scenario B </b>
 </p>
 <p align="center">
-<img src="img/scenario B.png" width="75%" height="75%">
+<img src="img/Scenario B.png" width="75%" height="75%">
 </p>
 
 ## Devices
