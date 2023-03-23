@@ -7,6 +7,7 @@ Each CSV consists of 5 (BLT) or 6 (WiFi) columns, named Timestamp, Date ISO, Rx 
 
 
 # Scenarios
+The first scenario (A) was created in the outdoor parking lots by placing around the perimeter of a 21.10 x 30-m rectangle 6 nodes still in line-of-sight (LOS) with a target positioned in coordinates [0, 0] as in the figure.
 
 <p align="center">
   <b> Experimental scenario A </b>
@@ -14,6 +15,8 @@ Each CSV consists of 5 (BLT) or 6 (WiFi) columns, named Timestamp, Date ISO, Rx 
 <p align="center">
 <img src="img/Scenario A.png" width="75%" height="75%">
 </p>
+
+The first scenario (A) was created in the outdoor parking lots by placing along the perimeter of a 32.8 x 30 meter rectangle 7 anchor nodes (including 4 in LOS and 2 in NLOS) and a target positioned in coordinates [4.6, 0] as in the figure.
 
 <p align="center">
   <b> Experimental scenario B </b>
