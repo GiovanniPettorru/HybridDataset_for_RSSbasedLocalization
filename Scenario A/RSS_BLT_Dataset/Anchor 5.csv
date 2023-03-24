@@ -1,4 +1,4 @@
-TIMESTAMP;Rx Power [dBm];Relative Coordinates [m];Target Coordinates [m];Distance Target - Anchor [m]
+Timestamp;Rx Power [dBm];Relative Coordinates [m];Target Coordinates [m];Distance Target - Anchor [m]
 Wed Jan 25 16:49:21 2023;-77;-10.55, -7.5;0, 0;12.944
 Wed Jan 25 16:49:23 2023;-72;-10.55, -7.5;0, 0;12.944
 Wed Jan 25 16:49:24 2023;-75;-10.55, -7.5;0, 0;12.944
