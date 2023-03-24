@@ -1,4 +1,4 @@
-﻿TIMESTAMP;Rx Power [dBm];Relative Coordinates [m];Target Coordinates [m];Distance Target - Anchor [m]
+﻿Timestamp;Rx Power [dBm];Relative Coordinates [m];Target Coordinates [m];Distance Target - Anchor [m]
 Thu Mar 16 12:04:13 2023;-84;16.4, -8.15;4.6, 0;14.34093791
 Thu Mar 16 12:04:17 2023;-82;16.4, -8.15;4.6, 0;14.34093791
 Thu Mar 16 12:04:18 2023;-92;16.4, -8.15;4.6, 0;14.34093791
