@@ -1,4 +1,4 @@
-﻿TIMESTAMP;DATA_ISO;Rx Power [dBm];Relative Coordinates [m];Target Coordinates [m];Distance Target - Anchor [m]
+﻿Timestamp;Date ISO;Rx Power [dBm];Relative Coordinates [m];Target Coordinates [m];Distance Target - Anchor [m]
 1678961044.079585702;2023-03-16 10:04:04;-74;16.4, 10;4.6, 0;15.46738504
 1678961048.907522754;2023-03-16 10:04:08;-73;16.4, 10;4.6, 0;15.46738504
 1678961048.927514125;2023-03-16 10:04:08;-71;16.4, 10;4.6, 0;15.46738504
