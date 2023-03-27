@@ -16,13 +16,22 @@ The first scenario (A) was created in the outdoor parking lots by placing around
 <img src="img/Scenario A.png" width="75%" height="75%">
 </p>
 
-The first scenario (A) was created in the outdoor parking lots by placing along the perimeter of a 32.8 x 30 meter rectangle 7 anchor nodes (including 4 in LOS and 2 in NLOS) and a target positioned in coordinates [4.6, 0] as in the figure.
+The second scenario (B) was created in the outdoor parking lots by placing along the perimeter of a 32.8 x 30 meter rectangle 7 anchor nodes (including 4 in LOS and 2 in NLOS) and a target positioned in coordinates [4.6, 0] as in the figure.
 
 <p align="center">
   <b> Experimental scenario B </b>
 </p>
 <p align="center">
 <img src="img/Scenario B.png" width="75%" height="75%">
+</p>
+
+The third scenario (C) was created in the indoor parking lots by placing along the perimeter of a 21.10 x 30-m rectangle 6 anchor nodes and a target positioned in coordinates [4.6, 0] as in the figure. As we can see in the figure, there are elements within the scenario such as cars and pillars not present in the previous two scenarios.
+
+<p align="center">
+  <b> Experimental scenario C </b>
+</p>
+<p align="center">
+<img src="img/Scenario C.png" width="75%" height="75%">
 </p>
 
 ## Devices
