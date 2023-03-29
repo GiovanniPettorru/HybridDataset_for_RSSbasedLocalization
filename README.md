@@ -8,7 +8,16 @@ The CSV files in Scenario A, B and C consists of 5 (BLT) or 6 (WiFi) columns, na
 
 
 # Scenarios
-The first scenario (A) was created in the outdoor parking lots by placing around the perimeter of a 21.10 x 30-m rectangle 6 nodes still in line-of-sight (LOS) with a target positioned in coordinates [0, 0] as in the figure.
+The test scenario (0) was created in the outdoor parking lots by placing 5 anchor nodes along a straight line at the distances of 5, 10, 15, 20 and 25 meters from a target node.
+
+<p align="center">
+  <b> Experimental scenario 0 </b>
+</p>
+<p align="center">
+<img src="img/Scenario 0.png" width="75%" height="75%">
+</p>
+
+The first scenario (A) was created in the outdoor parking lots by placing around the perimeter of a 21.10 x 30-m rectangle 6 anchor nodes in line-of-sight (LOS) with a target positioned in coordinates [0, 0] as in the figure.
 
 <p align="center">
   <b> Experimental scenario A </b>
