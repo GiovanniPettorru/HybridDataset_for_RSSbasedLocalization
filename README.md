@@ -67,5 +67,5 @@ To perform the captures, all devices were placed on a tripod at a height of 1.5 
 
 On the software side, I used, as far as the target node is concerned, a python language script and the PyShark library. Using one of the functions of this library, the script allowed me to access the external interface in monitor mode thus going on to capture all Probe Requests sent by all devices within a certain range of the anchor node's coverage. Next, a part of the script took care of filtering these packets going to retain only those sent by the anchor nodes, using the MAC ADDRESS of the devices as the discriminating information. 
 The same logic was used for Bluetooth measurements by exploiting this time the bluepy library.
-On the other hand, as far as the anchor nodes are concerned, I used a script in Python that would allow a continuous scan of the WiFi networks present, thus indirectly going to force the forwarding of Probe Requests. 
+On the other hand, as for the Raspberry Pi Zero W anchor nodes, I used a script in Python that would allow a continuous scan of the WiFi networks present, thus indirectly going to force Probe Request forwarding. With the Arduinos, on the other hand, a script in Wire language and the ESP8266WiFi library was used to be able to force the forwarding of Probe Requests and modify the transmission parameters.  
 
