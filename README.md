@@ -52,7 +52,7 @@ Three types of devices were used to conduct the acquisition campaign: Raspberry 
   <b> Anchor and Target devices </b>
 </p>
 <p align="center">
-<img src="img/devices.png" width="75%" height="75%">
+<img src="img/device.png" width="75%" height="75%">
 </p>
 
 The Target node was equipped with an external WiFi interface that would allow it to sniff the network and consecutively capture probe requests sent by the anchor nodes. From the capture of these frames, various information can be extracted, including the RSS on which we focus in this work. 
