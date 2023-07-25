@@ -1,15 +1,15 @@
 # Hybrid Dataset for RSS-based Localization
-This dataset is a complete set of Received signal strength (RSS) reads collected by a Target node Raspberry Pi 4 model B that is intended to capture probe requests (WiFi) and advertisement packets (BLE) sent by anchor nodes Raspberry Pi Zero W located in the scenario.
+This dataset is a complete set of Received signal strength (RSS) reads collected by a Target node Raspberry Pi 4 model B that is intended to capture probe requests (WiFi) and advertisement packets (BLE) sent by anchor nodes Raspberry Pi Zero W and Arduino Node MCU located in the scenario.
 For conducting the tests, different scenarios were created in the outdoor/indoor parking lots of the Faculty of Engineering, University of Cagliari. 
 
 The purpose of this dataset is to provide real RSS measurements, thus affected by propagation disturbances such as typical of these scenarios, by means of which to be able to test RSS-based localization algorithms. 
-The dataset is organized into folders, with one folder assigned for each scenario. Furthermore, the folders are divided into subfolders according to the type of technology that was analyzed, either WiFi or BLT. Lastly, each subfolder contains a CSV file for each node included in the dataset.
-The CSV files for each anchor differ in the number of columns depending on the scenario and technology under measurement. In scenario 0, there are 2 and 3 columns for the Bluetooth and WiFi files, respectively. These columns are: Rx Power [dBm] indicating the RSS measurement; Timestamp and Date ISO indicating the time the measurement was acquired.
-For scenarios A, B, and C, there are 5 and 6 columns for Bluetooth and WiFi files, respectively. These columns include Timestamp, Date ISO, Rx Power [dBm], Relative Coordinates [m], Target Coordinates [m], and Target Distance - anchor [m]. In addition to those in Scenario 0, Relative Coordinates [m] refers to the coordinates of the anchor node in the reference scenario, Target-Anchor Distance [m] indicates the distance between the anchor node and the target node, and Target Coordinates [m] refers to the relative coordinates of the target in the reference scenario. 
-
+The dataset is organized into folders, with one folder assigned for each scenario. In addition, the folders are divided into subfolders based on the type of device used as an anchor, and then further divided according to the technology analyzed, WiFi or BLT. As for the folders related to the Raspberry Pi (RPI) used as anchors, each subfolder contains a CSV file for each node included in the dataset. In the case of Arduino, however, there is a further subdivision into folders based on the transmission power used by the anchor node, ranging from 0 to 20 dBm. 
+The CSV files for each anchor differ in the number of columns depending on the scenario, device and technology under measurement.
+The columns that are always included are: Rx Power [dBm] indicating the RSS measurement; Timestamp and/or Date ISO indicating the time the measurement was acquired.
+In addition, particularly in scenarios A, B and C, we also find the following columns: Relative Coordinates [m], Target Coordinates [m], and Target Distance - anchor [m]. Relative Coordinates [m] refers to the coordinates of the anchor node in the reference scenario, Target-Anchor Distance [m] indicates the distance between the anchor node and the target node, and Target Coordinates [m] refers to the relative coordinates of the target in the reference scenario. 
 
 # Scenarios
-The test scenario (0) was created in the outdoor parking lots by placing 5 anchor nodes along a straight line at the distances of 5, 10, 15, 20 and 25 meters from a target node.
+The test scenario (0) was created in outdoor parking lots by placing 4 anchor nodes in the Arduino configuration and 5 anchor nodes in the RPI configuration. The devices were placed along a straight line at different distances from the target node.
 
 <p align="center">
   <b> Experimental scenario 0 </b>
@@ -46,7 +46,7 @@ The third scenario (C) was created in the indoor parking lots by placing along t
 </p>
 
 ## Devices
-Two types of devices were used to conduct the acquisition campaign: Raspberry Pi 4 model B for the Target node, Raspberry Pi Zero W for the anchor nodes.
+Three types of devices were used to conduct the acquisition campaign: Raspberry Pi 4 model B for the Target node, Raspberry Pi Zero W and Arduino Node MCU for the anchor nodes.
 
 <p align="center">
   <b> Anchor and Target devices </b>
