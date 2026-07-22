@@ -69,3 +69,27 @@ On the software side, I used, as far as the target node is concerned, a python l
 The same logic was used for Bluetooth measurements by exploiting this time the bluepy library.
 On the other hand, as for the Raspberry Pi Zero W anchor nodes, I used a script in Python that would allow a continuous scan of the WiFi networks present, thus indirectly going to force Probe Request forwarding. With the Arduinos, on the other hand, a script in Wire language and the ESP8266WiFi library was used to be able to force the forwarding of Probe Requests and modify the transmission parameters.  
 
+## Citation
+
+If you use this dataset or code in your research, please cite the following publications:
+
+```bibtex
+% Journal Extension (IEEE TWC 2026)
+@article{pettorru2026robust,
+  author   = {Pettorru, Giovanni and Pilloni, Virginia and Martal{\`o}, Marco},
+  title    = {Robust Range-Based Localization Approaches Leveraging Multiple Wireless Interfaces},
+  journal  = {IEEE Transactions on Wireless Communications},
+  year     = {2026},
+  doi      = {10.1109/TWC.2026.3715378},
+  note     = {Early Access / To be published}
+}
+
+% Original Conference Paper (IEEE MeditCom 2023)
+@inproceedings{pettorru2023hybrid,
+  author    = {Pettorru, Giovanni and Pilloni, Virginia and Martal{\`o}, Marco},
+  booktitle = {2023 IEEE International Mediterranean Conference on Communications and Networking (MeditCom)}, 
+  title     = {A Hybrid WiFi/Bluetooth RSS Dataset with Application to Multilateration-Based Localization}, 
+  year      = {2023},
+  pages     = {293-298},
+  doi       = {10.1109/MeditCom58224.2023.10266625}
+}
